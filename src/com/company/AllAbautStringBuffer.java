@@ -16,6 +16,13 @@ public class AllAbautStringBuffer {
         System.out.println("sb2 = " + sb2); //sb2 = Viktor
         System.out.println("sb3 = " + sb3); //sb3 = WIKTOR222
 
+
+// Превратить SStringBuffer в String
+        String strFina5 = String.valueOf(sb2);
+        // или
+        String strFinal = "" + sb2;
+
+
         //получить длину объекта (int)
         int l1 = sb2.length();
         System.out.println(l1); //6
@@ -49,14 +56,13 @@ public class AllAbautStringBuffer {
         sb4.deleteCharAt(10);
         sb4.deleteCharAt(6);
         System.out.println(sb4); //Викториктр
-        sb4.delete(6,10);
+        sb4.delete(6, 10);
         System.out.println(sb4); //Виктор
 
         //Вставка , замена
         System.out.println(sb2.reverse());             // Viktor Hello
-        sb2.replace(2,8, "VIKTOR");
+        sb2.replace(2, 8, "VIKTOR");
         System.out.println(sb2);                        // ViVIKTORello
-
 
 
     }

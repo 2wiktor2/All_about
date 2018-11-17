@@ -2,12 +2,28 @@ package com.company;
 
 public class Main {
 
+
     public static void main(String[] args) {
 
 // Создание! Создание! Создание! Создание! Создание! Создание! Создание! Создание! Создание! Создание!
 
         //        Создание строки.
         String str1 = "Hello world";
+
+// Создание строки из полученных символов
+        char ch3 = str1.charAt(0);
+        char ch4 = str1.charAt(1);
+        char ch5 = str1.charAt(2);
+        char ch6 = str1.charAt(3);
+        char ch7 = str1.charAt(4);
+
+        String demoStr1=ch3+""+ch4+""+ch5+""+ch6+""+ch7;
+
+        System.out.println(ch3+""+ch4+""+ch5+""+ch6+""+ch7);
+        System.out.println(demoStr1);
+
+
+
         // Создание массива строк.
         String[] numbers = {"Один", "Два", "Три", "Четыре"};
 
@@ -50,6 +66,14 @@ public class Main {
 
         //Доступ к строковуму ресурсу (R.string. имя ресурса)
         //String str5 = getResources().getString(R.string.barsik);
+
+
+
+        //Возвращает длину строки
+        // public int length()
+
+        String str17 = "WIktor";
+        System.out.println(str17.length());  // 6
 
 
         //Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы!
@@ -164,7 +188,8 @@ public class Main {
 
 
 /*        public static String format(Locale locale, String format, Object... args)
-        Возвращает отформатированную строку, используя прилагаемый формат и аргументы, локализованных в данной области. Например дату или время
+        Возвращает отформатированную строку, используя прилагаемый формат и аргументы,
+         локализованных в данной области. Например дату или время
 
 
 // выводим число типа float с двумя знаками после запятой
@@ -230,11 +255,7 @@ public class Main {
         //Данный метод появился в API 9 (Android 2.1). Для старых устройств используйте String.length() == 0
 
 
-        //Возвращает длину строки
-        // public int length()
 
-        String str17 = "WIktor";
-        System.out.println(str17.length());  // 6
 
         //Меняет символ или последовательность символов target на replacement.
         String str18 = "WIktor";
