@@ -18,9 +18,12 @@ public class Main {
         char ch7 = str1.charAt(4);
 
         String demoStr1=ch3+""+ch4+""+ch5+""+ch6+""+ch7;
+        String demoStr2 = String.valueOf(ch3)+String.valueOf(ch4);
 
         System.out.println(ch3+""+ch4+""+ch5+""+ch6+""+ch7);
         System.out.println(demoStr1);
+        System.out.println("demoStr2 = "+demoStr2);
+
 
 
 
@@ -77,6 +80,26 @@ public class Main {
 
 
         //Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы! Методы!
+
+
+
+        //Создаёт новую последовательность/строку с символами из данной строки начиная с позиции start
+        // до конца строки/заканчивая символом с позиции end.
+        // Новая строка содержит символы от start до end - 1, поэтому берём на один символ больше.
+        // public String substring(int start) и другие перегруженные версии.
+
+        String str20 = "Viktor";
+        String str21 = str20.substring(1, 4);
+        String str21c = str20.substring(0, 2);
+        System.out.println(str21); // ikt
+        String str21b = str20.substring(2);
+        System.out.println("String str21b = " + str21b); // ktor
+        System.out.println("String str21c = " + str21c); // Vi
+        String str21d = str20.substring(2, str20.length()-1);
+        System.out.println("String str21d = " + str21d);
+
+        //public CharSequence subSequence (int start, int end)
+        //Аналогичен методу substring(), но может использоваться для CharSequence.
 
 
         //Для извлечения нескольких символов используйте getChars()
@@ -280,20 +303,6 @@ public class Main {
         //Также можно использовать регулярное выражение \\s+, чтобы учитывать
         // любые типы пробелов, включая двойные и более пробелы подряд.
         //String[] words = someString.split("\\s+");
-
-
-        //Создаёт новую последовательность/строку с символами из данной строки начиная с позиции start
-        // до конца строки/заканчивая символом с позиции end.
-        // Новая строка содержит символы от start до end - 1, поэтому берём на один символ больше.
-        // public String substring(int start) и другие перегруженные версии.
-
-        String str20 = "Viktor";
-        String str21 = str20.substring(1, 4);
-        System.out.println(str21); // ikt
-
-        //public CharSequence subSequence (int start, int end)
-        //Аналогичен методу substring(), но может использоваться для CharSequence.
-
 
         //Удаляет пробелы в начале и в конце строки.
         // public String trim()
