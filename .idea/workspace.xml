@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16158610-13a7-45eb-b9dd-4414df2c2c43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/AllAboutString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/AllAbautStringBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/AllAbautStringBuffer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutMassiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutMassiv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +50,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-980">
+            <state relative-caret-position="1840">
               <caret line="92" column="46" lean-forward="true" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
             </state>
           </provider>
@@ -148,7 +145,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="getChars&#9;PSI&#9;JAVA://com.sun.corba.se.impl.encoding.CodeSetConversion.BTCConverter#getChars" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542502670182" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542502914504" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -215,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542479852613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1542502909585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542502909585</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -288,7 +292,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-980">
+        <state relative-caret-position="1840">
           <caret line="92" column="46" lean-forward="true" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
         </state>
       </provider>
