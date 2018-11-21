@@ -337,8 +337,8 @@ public class Main {
 
 
         //разделить строку на слова
-/*            String Str = new String("Разделяем эту строку на слова");
-
+            //String Str = new String("Разделяем эту строку на слова");
+/*
             for (String retval : Str.split(" ")) {
                 System.out.println(retval);
             }*/
