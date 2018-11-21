@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16158610-13a7-45eb-b9dd-4414df2c2c43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/AllAbautStringBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/AllAbautStringBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutMassiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutArrays.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,14 +23,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="4559" />
-          <entry key="txt" value="20" />
+          <entry key="java" value="5351" />
+          <entry key="txt" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4559" />
-          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="JAVA" value="5351" />
+          <entry key="PLAIN_TEXT" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -90,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="565">
+              <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -160,7 +156,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="getChars&#9;PSI&#9;JAVA://com.sun.corba.se.impl.encoding.CodeSetConversion.BTCConverter#getChars" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542806600575" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542834951209" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunDashboard">
@@ -175,9 +171,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.AllAboutArrays">
     <configuration name="AllAbautStringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.AllAbautStringBuffer" />
+      <module name="All_About_Strings" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllAboutArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AllAboutArrays" />
       <module name="All_About_Strings" />
       <extension name="coverage">
         <pattern>
@@ -216,9 +225,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.AllAbautStringBuffer" />
       <item itemvalue="Application.AllAboutStringBuilder" />
+      <item itemvalue="Application.AllAboutArrays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllAboutArrays" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AllAboutStringBuilder" />
         <item itemvalue="Application.AllAbautStringBuffer" />
@@ -278,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542637508713</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="добавляются массивы">
+      <created>1542807052891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542807052891</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -290,15 +308,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.22993493" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1691974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.22993493" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,7 +338,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="new commit" />
     <MESSAGE value="new commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="new commit2" />
+    <MESSAGE value="добавляются массивы" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавляются массивы" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.corba/com/sun/corba/se/impl/encoding/CodeSetConversion.java">
@@ -360,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="565">
+          <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
         </state>
       </provider>
     </entry>
