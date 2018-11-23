@@ -5,8 +5,12 @@ public class toStringValueOfParseInt {
 
 
         // Java — Метод toString()
-        // Java — Метод valueOf()
         // Java — Метод parseInt()
+        // Java — Метод valueOf()
+
+        //integer.valueOf() returns an Integer object, while Integer.parseInt() returns an int primitive.
+        //parse -разбор, синтаксический разбор, анализ
+        //value - значение
 
 
 
@@ -48,21 +52,67 @@ public class toStringValueOfParseInt {
 
 
 
-        // Java — Метод valueOf()
-        //Описание
-        //Синтаксис
-        //Параметры
-        //Возвращаемое значение
-        //Пример
-
-
-
-
         // Java — Метод parseInt()
         //Описание
+/*        Метод parseInt() — в Java используется для получения примитивного типа данных определенной строки,
+        другими словами — преобразует строку в число.
+        Метод parseXxx() — это статический метод и может иметь один аргумент или два.*/
         //Синтаксис
+/*        static int parseInt(String s)
+        static int parseInt(String s, int radix)*/
         //Параметры
+/*        s — строковое представление десятичного значения.
+        radix — будет использоваться для преобразования строки в целое число.*/
         //Возвращаемое значение
+/*        parseInt(String s): возвращает целое (только в десятичной системе).
+        parseInt(int i): возвращает целое число, учитывая строковое представление десятичных,двоичных, восьмеричных и
+        шестнадцатеричных (radix равно 10, 2, 8 или 16 соответственно) чисел в качестве входных данных.*/
         //Пример
+        int x2 = Integer.parseInt("9");
+        double c = Double.parseDouble("5");
+        int b = Integer.parseInt("444",16);
+
+        System.out.println(x2);
+        System.out.println(c);
+        System.out.println(b);
+
+
+
+
+        // Java — Метод valueOf()
+
+        //Описание
+/*        Метод valueOf() — возвращает соответствующий числовой объект, содержащий значение переданного аргумента,
+                простыми словами — преобразует в нужный тип данных. Аргумент можно преобразовать в int, double,
+        float и другие типы данных, например, можно преобразовать строку в число.
+
+        Метод valueOf() в Java является статическим методом. Метод может принимать два аргумента,
+                где один является строкой и другой системой счисления.*/
+        //Синтаксис
+/*        static Integer valueOf(int i)
+        static Integer valueOf(String s)
+        static Integer valueOf(String s, int radix)*/
+        //Параметры
+/*        i — int, для которого целочисленное представление будет возвращено.
+        s — String, для которого целочисленное представление будут возвращены.
+                radix — может быть использовано, чтобы решить какое будет возвращено целочисленное
+                 значение на основе переданного String.*/
+        //Возвращаемое значение
+/*      valueOf(int i): возвращает целочисленный объект, содержащий значение указанного типа.
+        valueOf(String s): возвращает объект Integer, содержащий значение указанного строкового представления.
+        valueOf(String s, int radix): возвращает целочисленный объект, содержащий целое значение указанного
+        строкового представления, разобранного со значением системы счисления.*/
+        //Пример
+
+        Integer x3 = Integer.valueOf(9);
+        Double c3= Double.valueOf(5);
+        Float a = Float.valueOf("80");
+
+        Integer b3 = Integer.valueOf("444",16);
+
+        System.out.println(x3);
+        System.out.println(c3);
+        System.out.println(a);
+        System.out.println(b3);
     }
 }

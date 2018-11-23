@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16158610-13a7-45eb-b9dd-4414df2c2c43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/toStringValueOfParseInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/AllAboutMassiv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/toStringValueOfParseInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/toStringValueOfParseInt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,24 +25,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="5941" />
+          <entry key="java" value="6570" />
           <entry key="txt" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5941" />
+          <entry key="JAVA" value="6570" />
           <entry key="PLAIN_TEXT" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -63,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -81,17 +79,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="193" column="9" selection-start-line="193" selection-start-column="9" selection-end-line="193" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutStringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/toStringValueOfParseInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+            <state relative-caret-position="1921">
+              <caret line="113" column="31" lean-forward="true" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -121,13 +128,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/AllAboutMassiv.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AllAbautStringBuffer.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Math.java" />
+        <option value="$PROJECT_DIR$/src/com/company/toStringValueOfParseInt.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AllAboutArrays.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/AllAboutString.java" />
         <option value="$PROJECT_DIR$/src/com/company/AllAboutStringBuilder.java" />
-        <option value="$PROJECT_DIR$/src/com/company/AllAbautStringBuffer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Math.java" />
-        <option value="$PROJECT_DIR$/src/com/company/AllAboutArrays.java" />
-        <option value="$PROJECT_DIR$/src/com/company/toStringValueOfParseInt.java" />
       </list>
     </option>
   </component>
@@ -171,7 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="getChars&#9;PSI&#9;JAVA://com.sun.corba.se.impl.encoding.CodeSetConversion.BTCConverter#getChars" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542840620584" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542921472085" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RunDashboard">
@@ -186,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AllAboutArrays">
+  <component name="RunManager" selected="Application.AllAboutString">
     <configuration name="AllAbautStringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.AllAbautStringBuffer" />
       <module name="All_About_Strings" />
@@ -202,6 +209,19 @@
     </configuration>
     <configuration name="AllAboutArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.AllAboutArrays" />
+      <module name="All_About_Strings" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllAboutString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AllAboutString" />
       <module name="All_About_Strings" />
       <extension name="coverage">
         <pattern>
@@ -241,9 +261,11 @@
       <item itemvalue="Application.AllAbautStringBuffer" />
       <item itemvalue="Application.AllAboutStringBuilder" />
       <item itemvalue="Application.AllAboutArrays" />
+      <item itemvalue="Application.AllAboutString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllAboutString" />
         <item itemvalue="Application.AllAboutArrays" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AllAboutStringBuilder" />
@@ -318,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542834986360</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="toStringValueOfParseInt">
+      <created>1542840700381</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542840700381</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -334,11 +363,11 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.22993493" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50159913" side_tool="true" weight="0.22993493" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49840087" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.22993493" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.22993493" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,41 +391,14 @@
     <MESSAGE value="new commit2" />
     <MESSAGE value="добавляются массивы" />
     <MESSAGE value="добавляются массивы2" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавляются массивы2" />
+    <MESSAGE value="toStringValueOfParseInt" />
+    <option name="LAST_COMMIT_MESSAGE" value="toStringValueOfParseInt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.corba/com/sun/corba/se/impl/encoding/CodeSetConversion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AllAbautStringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -407,17 +409,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/toStringValueOfParseInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="193" column="9" selection-start-line="193" selection-start-column="9" selection-end-line="193" selection-end-column="9" />
+        <state relative-caret-position="1921">
+          <caret line="113" column="31" lean-forward="true" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/toStringValueOfParseInt.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AllAbautStringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AllAboutStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
