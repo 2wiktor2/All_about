@@ -212,64 +212,6 @@ public class Main {
         //Форматирование строк! Разобрать!!!Форматирование строк! Разобрать!!!Форматирование строк!
 
 
-/*        public static String format(Locale locale, String format, Object... args)
-        Возвращает отформатированную строку, используя прилагаемый формат и аргументы,
-         локализованных в данной области. Например дату или время
-
-
-// выводим число типа float с двумя знаками после запятой
-        String.format("%.2f", floatValue);
-        Склеиваем два слова, которые выводятся с новой строки. При этом второе слово выводится в верхнем регистре.
-
-
-        String str1 = "Кот";
-        String str2 = "васька";
-        String strResult = String.format("%s\n%S", str1, str2);
-// выводим результат в TextView
-        infoTextView.setText(strResult);
-
-
-        Конвертируем число в восьмеричную систему.
-
-                String str1 = "8";
-        int inInt = Integer.parseInt(str1); // конвертируем строку в число
-        String strResult = String.format("(Восьмеричное значение): %o\n", inInt);
-
-        infoTextView.setText(strResult);
-        По аналогии выводим в шестнадцатеричной системе
-
-
-        String str1 = "255";
-        int inInt = Integer.parseInt(str1);
-        String strResult = String.format("(Шестнадцатеричное значение): %x\n", inInt);
-// число 255 будет выведено как ff
-        infoTextView.setText(strResult);
-        Для верхнего регистра используйте %X, тогда вместо ff будет FF.
-
-        Для десятичной системы используйте %d.
-
-                Дату тоже можно выводить по разному.
-
-
-                Date now = new Date();
-        Locale locale = Locale.getDefault();
-        infoTextView.setText(
-                String.format(locale, "%tD\n", now) + // (MM/DD/YY)
-                        String.format(locale, "%tF\n", now) + // (YYYY-MM-DD)
-                        String.format(locale, "%tr\n", now) + // Full 12-hour time
-                        String.format(locale, "%tz\n", now) + // Time zone GMT offset
-                        String.format(locale, "%tZ\n", now)); // Localized time zone bbreviation
-        Допустим, при выводе double получается 3.0. Как вывести 3, т.е. без нуля. И с учетом того,
-        что например 3.1 должно выводиться как 3.1. Округление здесь не поможет.
-
-
-        public static String fmt(double d) {
-            if (d == (long) d) {
-                return String.format("%d", (long) d);
-            } else {
-                return String.format("%s", d);
-            }
-        }*/
 
 
         //Проверяет, является ли строка пустой
@@ -342,6 +284,65 @@ public class Main {
             for (String retval : Str.split(" ")) {
                 System.out.println(retval);
             }*/
+
+/*        public static String format(Locale locale, String format, Object... args)
+        Возвращает отформатированную строку, используя прилагаемый формат и аргументы,
+         локализованных в данной области. Например дату или время
+
+
+// выводим число типа float с двумя знаками после запятой
+        String.format("%.2f", floatValue);
+        Склеиваем два слова, которые выводятся с новой строки. При этом второе слово выводится в верхнем регистре.
+
+
+        String str1 = "Кот";
+        String str2 = "васька";
+        String strResult = String.format("%s\n%S", str1, str2);
+// выводим результат в TextView
+        infoTextView.setText(strResult);
+
+
+        Конвертируем число в восьмеричную систему.
+
+                String str1 = "8";
+        int inInt = Integer.parseInt(str1); // конвертируем строку в число
+        String strResult = String.format("(Восьмеричное значение): %o\n", inInt);
+
+        infoTextView.setText(strResult);
+        По аналогии выводим в шестнадцатеричной системе
+
+
+        String str1 = "255";
+        int inInt = Integer.parseInt(str1);
+        String strResult = String.format("(Шестнадцатеричное значение): %x\n", inInt);
+// число 255 будет выведено как ff
+        infoTextView.setText(strResult);
+        Для верхнего регистра используйте %X, тогда вместо ff будет FF.
+
+        Для десятичной системы используйте %d.
+
+                Дату тоже можно выводить по разному.
+
+
+                Date now = new Date();
+        Locale locale = Locale.getDefault();
+        infoTextView.setText(
+                String.format(locale, "%tD\n", now) + // (MM/DD/YY)
+                        String.format(locale, "%tF\n", now) + // (YYYY-MM-DD)
+                        String.format(locale, "%tr\n", now) + // Full 12-hour time
+                        String.format(locale, "%tz\n", now) + // Time zone GMT offset
+                        String.format(locale, "%tZ\n", now)); // Localized time zone bbreviation
+        Допустим, при выводе double получается 3.0. Как вывести 3, т.е. без нуля. И с учетом того,
+        что например 3.1 должно выводиться как 3.1. Округление здесь не поможет.
+
+
+        public static String fmt(double d) {
+            if (d == (long) d) {
+                return String.format("%d", (long) d);
+            } else {
+                return String.format("%s", d);
+            }
+        }*/
 
 
     }
