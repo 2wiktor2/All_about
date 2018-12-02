@@ -35,6 +35,7 @@ public class Main {
 
 
         // Создать строку через массив символов
+
         char[] chars1 = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'};
 
         String str4 = new String(chars1);

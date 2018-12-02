@@ -41,6 +41,10 @@ public class AllAbautStringBuffer {
         sb1.append(string1).append(777).append(l1).append(sb3).append(sb2.charAt(2)); // или можно записать в столбик
         System.out.println(sb1); //WIKTOR2227776WIKTOR222k
 
+
+
+
+
         //Вставка в строку новой строки или символа
         sb2.insert(6, " Hello");
         System.out.println(sb2); // Viktor Hello
@@ -57,7 +61,16 @@ public class AllAbautStringBuffer {
         sb4.deleteCharAt(6);
         System.out.println(sb4); //Викториктр
         sb4.delete(6, 10);
-        System.out.println(sb4); //Виктор
+        //Виктор
+        
+
+        // Добавление куска строки
+        sb4.append(string1, 0, 5);
+        System.out.println(sb4);
+
+
+
+
 
         //Вставка , замена
         System.out.println(sb2.reverse());             // Viktor Hello
