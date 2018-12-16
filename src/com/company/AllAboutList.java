@@ -6,9 +6,31 @@ import java.util.ArrayList;
 public class AllAboutList {
     public static void main(String[] args) {
 
+        //Символ <E> - означает что в коллекции может находиться люблй тип данных
+
+        //Список предпологает наличие у каждого элемента индекса
+        //List - упорядоченная коллекция
+
+
+/**java.util.Collection
+.add()
+.conteins
+.remove
+.clear
+.iterator
+.size
+.isEmpty
+
+java.util.List
+.set
+.get
+.indexOf*/
+
         List list = new List();
 
-        ArrayList<String> arrayL = new ArrayList<String>(3);
+        //  initialCapacity начальный размер ArrayList
+        //       ArrayList<String> arrayL = new ArrayList<String>(3);
+        ArrayList<String> arrayL = new ArrayList<String>();
 
 
         //Добавление элементов
@@ -36,11 +58,11 @@ public class AllAboutList {
 
         // получить элемент из списка
         arrayL.get(8);
-        System.out.println("получить элемент из списка  "+ arrayL.get(8));
+        System.out.println("получить элемент из списка  " + arrayL.get(8));
 
         // получить индекс элемента списка
         arrayL.indexOf("Гамарджоба");
-        System.out.println("получить индекс элемента списка  "+arrayL.indexOf("Гамарджоба"));
+        System.out.println("получить индекс элемента списка  " + arrayL.indexOf("Гамарджоба"));
 
         // Заменить элемент списка другим элементом
         arrayL.set(7, "Zhopa новый элемент списка");
@@ -58,8 +80,11 @@ public class AllAboutList {
 
         // Проход по списку
 
-        for (int i =0; i<arrayL.size(); i++){
-            System.out.println("Проход по списку for "+arrayL.get(i));
+        for (int i = 0; i < arrayL.size(); i++) {
+            System.out.println("Проход по списку for " + arrayL.get(i));
+        }
+        for (String elements : arrayL) {
+            System.out.println("elements " + elements);
         }
 /*
 
