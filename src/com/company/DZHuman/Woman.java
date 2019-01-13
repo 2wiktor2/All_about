@@ -1,11 +1,11 @@
 package com.company.DZHuman;
 
-public class Woman implements Human{
+public class Woman implements Human {
     private String name;
     private int age;
     private final String gender = "Женский";
 
-    Woman (String name, int age){
+    Woman(String name, int age) {
         this.name = name;
         this.age = age;
     }

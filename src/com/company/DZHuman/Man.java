@@ -4,7 +4,7 @@ public class Man implements Human {
     private String name;
     private int age;
     private final String gender = "Мужской";
-    private Person wife;
+    private Person person;
 
 
     // конструктор
