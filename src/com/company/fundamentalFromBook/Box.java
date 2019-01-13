@@ -25,8 +25,15 @@ public class Box {
     }
 
     // конструктор для создания куба
-    Box (double len){
+    Box(double len) {
         width = height = depth = len;
+    }
+
+    // передать объект конструктору
+    Box(Box obj) {
+        width = obj.width;
+        height = obj.height;
+        depth = obj.depth;
     }
 
     // вывести объем параллелепипеда
