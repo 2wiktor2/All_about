@@ -13,18 +13,18 @@ public class AllAboutList {
 
 
 /**java.util.Collection
-.add()
-.conteins
-.remove
-.clear
-.iterator
-.size
-.isEmpty
+ .add()
+ .conteins
+ .remove
+ .clear
+ .iterator
+ .size
+ .isEmpty
 
-java.util.List
-.set
-.get
-.indexOf*/
+ java.util.List
+ .set
+ .get
+ .indexOf*/
 
         List list = new List();
 

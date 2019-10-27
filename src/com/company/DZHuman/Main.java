@@ -12,6 +12,8 @@ public class Main {
         man2.getGender();
         if (person2.gender.equals("Женский")){
             man2.setWife(person2);
+        } else {
+            System.out.println("Педики");
         }
     }
 }

@@ -38,7 +38,7 @@ public class AllAboutStringBuilder {
 
         //  Соединять строки можно цепочкой.
 
-       StringBuilder sb3 = new StringBuilder("Wiktor").append(' ').append('t').append("he").append(' ').append("number").append(1);
+       StringBuilder sb3 = new StringBuilder("Wiktor").append(' ').append('t').append("he").append(' ').append("number ").append(1);
 
         System.out.println("sb3 = "+ sb3); // sb3 = Wiktor the number1
 

@@ -3,7 +3,7 @@ package com.company.DZHuman;
 public class Man implements Human {
     private String name;
     private int age;
-    private final String gender = "Мужской";
+    private final String gender = Const.M;
     private Person person;
 
 
@@ -32,6 +32,6 @@ public class Man implements Human {
 
     @Override
     public void getGender() {
-        System.out.println("Пол - "+ gender);
+        System.out.println("Пол - "+ Const.M);
     }
 }

@@ -117,7 +117,8 @@ public class AllAboutArrays {
     /*              for(объявление : выражение)
                   {
                   Операторы
-                  }                                                         */
+                  }
+     */
 
         System.out.println("Перебор массива в цикле улучшенный for: ");
         for (int x1 : myArray2) {
@@ -148,7 +149,7 @@ public class AllAboutArrays {
 
         //6. Возврат массива из метода.
 
-        //        Метод может также возвращать массив. Например, метод, показанный ниже,
+        // Метод может также возвращать массив. Например, метод, показанный ниже,
         // возвращает массив, который является реверсирование другого массива:
 
 /*        public static int[] reverse(int[] list) {
@@ -201,18 +202,15 @@ public class AllAboutArrays {
         // или
 
         for (int zzz : arr2) {
-            if (zzz%2==0){
+            if (zzz % 2 == 0) {
                 System.out.print(zzz + " ");
             }
         }
 
 
         //Пример : вывод элементов массива с четным и нечетным индексом
-        for (int i =0 ; i<arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
 
         }
-
-
-
     }
 }

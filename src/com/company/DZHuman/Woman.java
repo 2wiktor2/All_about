@@ -3,7 +3,7 @@ package com.company.DZHuman;
 public class Woman implements Human {
     private String name;
     private int age;
-    private final String gender = "Женский";
+    private final String gender = Const.W;
 
     Woman(String name, int age) {
         this.name = name;
@@ -22,7 +22,7 @@ public class Woman implements Human {
 
     @Override
     public void getGender() {
-        System.out.println("Пол - " + gender);
+        System.out.println("Пол - " + Const.W);
 
     }
 }

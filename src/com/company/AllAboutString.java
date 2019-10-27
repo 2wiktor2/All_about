@@ -116,6 +116,22 @@ public class AllAboutString {
         System.out.println(myChar3); // 4
 
 
+
+        //Метод toUpperCase()
+
+    /*    Метод toUpperCase() в Java имеет два варианта. Первый вариант преобразует все знаки в данной строке в верхний регистр, используя правила данного языкового стандарта. Это эквивалент вызова toUpperCase(Locale.getDefault()).
+        Второй вариант принимает языковой стандарт в качестве аргумента для использования во время преобразования в верхний регистр.
+        Синтаксис этого метода:*/
+/*        String Str = new String("Добро пожаловать на ProgLang.su");
+
+        System.out.print("Возвращаемое значение: ");
+        System.out.println(Str.toUpperCase());
+
+        System.out.print("Возвращаемое значение: ");
+        System.out.println(Str.toUpperCase(Locale.ENGLISH));*/
+
+
+
         //      public int compareTo(String string)
         //        Сравнивает указанную строку, используя значения символов Unicode и вычисляет,
         //                какая из строк меньше, равна или больше следующей. Может использоваться при сортировке.
