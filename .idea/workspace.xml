@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16158610-13a7-45eb-b9dd-4414df2c2c43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="16158610-13a7-45eb-b9dd-4414df2c2c43" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572208967741</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add">
+      <created>1575900344944</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1575900344944</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,6 +329,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="commit" />
     <MESSAGE value="new commit" />
     <MESSAGE value="new commit2" />
@@ -343,8 +349,19 @@
     <MESSAGE value="added dz" />
     <MESSAGE value="add" />
     <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1306" y="23" key="CommitChangelistDialog2" timestamp="1575900338943">
+      <screen x="-1920" y="-90" width="1920" height="1040" />
+    </state>
+    <state x="-1306" y="23" key="CommitChangelistDialog2/0.0.1600.860/-1920.-90.1920.1040@-1920.-90.1920.1040" timestamp="1575900338943" />
+    <state x="-1368" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575900348129">
+      <screen x="-1920" y="-90" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/-1920.-90.1920.1040@-1920.-90.1920.1040" timestamp="1575900348129" />
     <state x="-1326" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1575899863769">
       <screen x="-1920" y="-90" width="1920" height="1040" />
     </state>
