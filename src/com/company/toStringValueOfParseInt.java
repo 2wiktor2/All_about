@@ -13,7 +13,6 @@ public class toStringValueOfParseInt {
         //value - значение
 
 
-
         // Java — Метод toString()
 
        // Описание
@@ -48,7 +47,7 @@ public class toStringValueOfParseInt {
         Integer x = 5;
 
         System.out.println(x.toString());  // Преобразовать число x в строку
-        System.out.println(Integer.toString(12));  // Преобразовать int в string
+        System.out.println(12);  // Преобразовать int в string
 
 
 
