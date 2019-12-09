@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16158610-13a7-45eb-b9dd-4414df2c2c43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/DZHuman/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutStringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DZHuman/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DZHuman/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DZHuman/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DZHuman/Man.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DZHuman/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DZHuman/Woman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,23 +22,16 @@
   </component>
   <component name="ProjectId" id="1RZamWKXXsDV3PGGloiZaX56R0X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="getChars&#9;PSI&#9;JAVA://com.sun.corba.se.impl.encoding.CodeSetConversion.BTCConverter#getChars" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556532116608" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.AllAboutString">
     <configuration name="AllAboutString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -120,11 +100,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AllAboutString" />
       <item itemvalue="Application.BoxDemo4" />
       <item itemvalue="Application.BoxDemo7" />
-      <item itemvalue="Application.TestPassOb" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.AllAboutString" />
+      <item itemvalue="Application.TestPassOb" />
     </list>
     <recent_temporary>
       <list>
@@ -135,6 +115,18 @@
         <item itemvalue="Application.BoxDemo4" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -308,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547413078275</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add">
+      <created>1572208967741</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1572208967741</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,6 +341,14 @@
     <MESSAGE value="added fundamentalFromBook2" />
     <MESSAGE value="added fundamentalFromBook3" />
     <MESSAGE value="added dz" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dz" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1326" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1575899863769">
+      <screen x="-1920" y="-90" width="1920" height="1040" />
+    </state>
+    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1920.-169.1920.1040@0.0.1600.860" timestamp="1575700524028" />
+    <state x="-1326" y="215" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1920.-90.1920.1040@-1920.-90.1920.1040" timestamp="1575899863769" />
   </component>
 </project>
