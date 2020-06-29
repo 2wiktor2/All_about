@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16158610-13a7-45eb-b9dd-4414df2c2c43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/AllAbautStringBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/AllAbautStringBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +32,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="getChars&#9;PSI&#9;JAVA://com.sun.corba.se.impl.encoding.CodeSetConversion.BTCConverter#getChars" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556532116608" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
-  <component name="RunManager" selected="Application.AllAboutString">
-    <configuration name="AllAboutString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.AllAboutString" />
+  <component name="RunManager" selected="Application.AllAboutMap">
+    <configuration name="AllAboutMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AllAboutMap" />
       <module name="All_About_Strings" />
       <extension name="coverage">
         <pattern>
@@ -47,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.fundamentalFromBook.BoxDemo4" />
+    <configuration name="AllAboutString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AllAboutString" />
       <module name="All_About_Strings" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.fundamentalFromBook.*" />
+          <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,18 +106,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.AllAboutString" />
-      <item itemvalue="Application.BoxDemo4" />
       <item itemvalue="Application.BoxDemo7" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.TestPassOb" />
+      <item itemvalue="Application.AllAboutMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllAboutMap" />
         <item itemvalue="Application.AllAboutString" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.TestPassOb" />
         <item itemvalue="Application.BoxDemo7" />
-        <item itemvalue="Application.BoxDemo4" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575900406937</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="test new name of repo">
+      <created>1575903159896</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1575903159896</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -361,25 +373,60 @@
     <MESSAGE value="added dz" />
     <MESSAGE value="add" />
     <MESSAGE value="add2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add2" />
+    <MESSAGE value="test new name of repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="test new name of repo" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1306" y="23" key="CommitChangelistDialog2" timestamp="1575900404970">
-      <screen x="-1920" y="-90" width="1920" height="1040" />
+    <state x="-1112" y="228" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586331846808">
+      <screen x="-1920" y="-180" width="1920" height="1040" />
     </state>
-    <state x="-1306" y="23" key="CommitChangelistDialog2/0.0.1600.860/-1920.-90.1920.1040@-1920.-90.1920.1040" timestamp="1575900404970" />
-    <state x="-1368" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575900409657">
-      <screen x="-1920" y="-90" width="1920" height="1040" />
+    <state x="-1112" y="228" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860/-1920.-180.1920.1040@-1920.-180.1920.1040" timestamp="1586331846808" />
+    <state width="1557" height="192" key="GridCell.Tab.0.bottom" timestamp="1593435861283">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="-1368" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/-1920.-90.1920.1040@-1920.-90.1920.1040" timestamp="1575900409657" />
-    <state x="-1326" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1575902115909">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-181.1920.1040@-1920.-181.1920.1040" timestamp="1593039637853" />
+    <state width="1557" height="192" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593435861283" />
+    <state width="1557" height="192" key="GridCell.Tab.0.center" timestamp="1593435861282">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="495" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1920.-169.1920.1040@0.0.1600.860" timestamp="1575700524028" />
-    <state x="-1326" y="215" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1920.-90.1920.1040@-1920.-90.1920.1040" timestamp="1575899863769" />
-    <state x="-1326" y="305" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1575902115909" />
+    <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-181.1920.1040@-1920.-181.1920.1040" timestamp="1593039637853" />
+    <state width="1557" height="192" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1593435861282" />
+    <state width="1557" height="192" key="GridCell.Tab.0.left" timestamp="1593435861282">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-181.1920.1040@-1920.-181.1920.1040" timestamp="1593039637853" />
+    <state width="1557" height="192" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1593435861282" />
+    <state width="1557" height="192" key="GridCell.Tab.0.right" timestamp="1593435861282">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-181.1920.1040@-1920.-181.1920.1040" timestamp="1593039637853" />
+    <state width="1557" height="192" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1593435861282" />
+    <state width="1557" height="275" key="GridCell.Tab.1.bottom" timestamp="1593164994348">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="275" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593164994348" />
+    <state width="1557" height="275" key="GridCell.Tab.1.center" timestamp="1593164994348">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="275" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1593164994348" />
+    <state width="1557" height="275" key="GridCell.Tab.1.left" timestamp="1593164994348">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="275" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1593164994348" />
+    <state width="1557" height="275" key="GridCell.Tab.1.right" timestamp="1593164994348">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="275" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1593164994348" />
+    <state x="-1326" y="125" key="com.intellij.ide.util.TipDialog" timestamp="1586331704640">
+      <screen x="-1920" y="-180" width="1920" height="1040" />
+    </state>
+    <state x="-1326" y="125" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1920.-180.1920.1040@-1920.-180.1920.1040" timestamp="1586331704640" />
+    <state x="-1702" y="-121" key="new project wizard" timestamp="1586331743817">
+      <screen x="-1920" y="-180" width="1920" height="1040" />
+    </state>
+    <state x="-1702" y="-121" key="new project wizard/0.0.1600.860/-1920.-180.1920.1040@-1920.-180.1920.1040" timestamp="1586331743817" />
   </component>
 </project>
