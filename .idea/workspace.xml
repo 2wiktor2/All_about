@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16158610-13a7-45eb-b9dd-4414df2c2c43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/AllAbautStringBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/AllAbautStringBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/All_About_Strings/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -333,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575903159896</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="all about map added">
+      <created>1593435916076</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1593435916076</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -374,7 +378,8 @@
     <MESSAGE value="add" />
     <MESSAGE value="add2" />
     <MESSAGE value="test new name of repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="test new name of repo" />
+    <MESSAGE value="all about map added" />
+    <option name="LAST_COMMIT_MESSAGE" value="all about map added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -384,26 +389,30 @@
       <screen x="-1920" y="-180" width="1920" height="1040" />
     </state>
     <state x="-1112" y="228" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860/-1920.-180.1920.1040@-1920.-180.1920.1040" timestamp="1586331846808" />
-    <state width="1557" height="192" key="GridCell.Tab.0.bottom" timestamp="1593435861283">
+    <state x="454" y="23" key="CommitChangelistDialog2" timestamp="1593435914032">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="454" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1593435914032" />
+    <state width="1557" height="192" key="GridCell.Tab.0.bottom" timestamp="1593438367349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-181.1920.1040@-1920.-181.1920.1040" timestamp="1593039637853" />
-    <state width="1557" height="192" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593435861283" />
-    <state width="1557" height="192" key="GridCell.Tab.0.center" timestamp="1593435861282">
+    <state width="1557" height="192" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593438367349" />
+    <state width="1557" height="192" key="GridCell.Tab.0.center" timestamp="1593438367349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-181.1920.1040@-1920.-181.1920.1040" timestamp="1593039637853" />
-    <state width="1557" height="192" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1593435861282" />
-    <state width="1557" height="192" key="GridCell.Tab.0.left" timestamp="1593435861282">
+    <state width="1557" height="192" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1593438367349" />
+    <state width="1557" height="192" key="GridCell.Tab.0.left" timestamp="1593438367349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-181.1920.1040@-1920.-181.1920.1040" timestamp="1593039637853" />
-    <state width="1557" height="192" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1593435861282" />
-    <state width="1557" height="192" key="GridCell.Tab.0.right" timestamp="1593435861282">
+    <state width="1557" height="192" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1593438367349" />
+    <state width="1557" height="192" key="GridCell.Tab.0.right" timestamp="1593438367349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-181.1920.1040@-1920.-181.1920.1040" timestamp="1593039637853" />
-    <state width="1557" height="192" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1593435861282" />
+    <state width="1557" height="192" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1593438367349" />
     <state width="1557" height="275" key="GridCell.Tab.1.bottom" timestamp="1593164994348">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -420,6 +429,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="275" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1593164994348" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1593435918596">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1593435918596" />
     <state x="-1326" y="125" key="com.intellij.ide.util.TipDialog" timestamp="1586331704640">
       <screen x="-1920" y="-180" width="1920" height="1040" />
     </state>
