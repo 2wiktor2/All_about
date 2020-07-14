@@ -16,7 +16,7 @@ public class AllAboutString {
         char ch7 = str1.charAt(4);
 
         String demoStr1 = ch3 + "" + ch4 + "" + ch5 + "" + ch6 + "" + ch7;
-        String demoStr2 = String.valueOf(ch3) + String.valueOf(ch4);
+        String demoStr2 = String.valueOf(ch3) + ch4;
 
         System.out.println(ch3 + "" + ch4 + "" + ch5 + "" + ch6 + "" + ch7);
         System.out.println(demoStr1);
@@ -27,7 +27,7 @@ public class AllAboutString {
         String[] numbers = {"Один", "Два", "Три", "Четыре"};
 
         //  Можно создать пустой объект класса String
-        String str2 = new String();
+        String str2 = "";
         // или
         String str3 = "";
 
@@ -93,6 +93,9 @@ public class AllAboutString {
         String str21d = str20.substring(2, str20.length() - 1);
         System.out.println("String str21d = " + str21d); //  String str21d = kto
 
+        String ssss = "0123456789";
+        System.out.println("ssss.substring(0,3) = " + ssss.substring(0, 3));
+
         //public CharSequence subSequence (int start, int end)
         //Аналогичен методу substring(), но может использоваться для CharSequence.
 
@@ -116,7 +119,6 @@ public class AllAboutString {
         System.out.println(myChar3); // 4
 
 
-
         //Метод toUpperCase()
 
     /*    Метод toUpperCase() в Java имеет два варианта. Первый вариант преобразует все знаки в данной строке в верхний регистр, используя правила данного языкового стандарта. Это эквивалент вызова toUpperCase(Locale.getDefault()).
@@ -129,7 +131,6 @@ public class AllAboutString {
 
         System.out.print("Возвращаемое значение: ");
         System.out.println(Str.toUpperCase(Locale.ENGLISH));*/
-
 
 
         //      public int compareTo(String string)
@@ -247,7 +248,7 @@ public class AllAboutString {
         //public String[] split (String regularExpression) и другие перегруженные версии
 
         String catNames = "Васька Рыжик Мурзик Барсик";
-        String aCats[] = catNames.split(" ");  // по пробелу
+        String[] aCats = catNames.split(" ");  // по пробелу
 
  /*       Получим:
 
