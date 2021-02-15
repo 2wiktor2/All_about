@@ -1,10 +1,80 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class AllAboutMap {
     public static void main(String[] args) {
+
+
+        //Map Udemy
+        //Если так написать то появится куча методов которые нужно переопределить
+        //Map<String, String> dictionary = new Map<String, String>() {        };
+
+        //что бы не переопределять эти методвы существуют реализации Map
+        Map<String, String> dictionary = new HashMap<>();
+        Map<String, String> dictionary2 = new TreeMap<>();
+        dictionary.put("Key1", "Value5");
+        dictionary.put("Key2", "Value4");
+        dictionary.put("Key3", "Value3");
+        dictionary.put("Key4", "Value2");
+        dictionary.put("Key5", "Value1");
+        dictionary.put("Key10", "Value10");
+        dictionary.put("Key9", "Value9");
+        dictionary.put("Key8", "Value8");
+        dictionary.put("Key7", "Value7");
+        dictionary.put("Key6", "Value6");
+
+        dictionary2.put("Key1", "Value5");
+        dictionary2.put("Key2", "Value4");
+        dictionary2.put("Key3", "Value3");
+        dictionary2.put("Key4", "Value2");
+        dictionary2.put("Key5", "Value1");
+        dictionary2.put("Key10", "Value10");
+        dictionary2.put("Key9", "Value9");
+        dictionary2.put("Key8", "Value8");
+        dictionary2.put("Key7", "Value7");
+        dictionary2.put("Key6", "Value6");
+
+        for (String key : dictionary.keySet()) {
+            System.out.print(key + ", ");   //Key2, Key1, Key6, Key5, Key4, Key3, Key9, Key8, Key7, Key10, ключи хранятся в без порядка
+        }
+        System.out.println();
+        for (String key : dictionary2.keySet()) {
+            System.out.print(key + ", ");   //Key1, Key10, Key2, Key3, Key4, Key5, Key6, Key7, Key8, Key9,  ключи хранятся в в алфавитном порядке
+        }
+        System.out.println();
+
+        //мап вместо pojo-объекта
+        Map<String, Object> user = new HashMap<>();
+        user.put("name", "Ivan");
+        user.put("lastName", "Ivanov");
+        user.put("age", 15);
+
+        ArrayList<Map<String, Object>> users = new ArrayList<>();
+        for (int i = 0; i < 5; i++) {
+            Map<String, Object> user2 = new HashMap<>();
+            user2.put("name", "Ivan" + i);
+            user2.put("lastName", "Ivanov" + i);
+            user2.put("age", 15 + i);
+            users.add(user2);
+        }
+
+        //вывести все значения
+        for (Map<String, Object> mapUser : users) {
+            // вывести все ключи
+            for (String key : mapUser.keySet()) {
+                System.out.println(key);
+                // получить значения по ключу
+                System.out.println(mapUser.get(key));
+            }
+            // вывести все значения
+            for (Object value : mapUser.values()) {
+                System.out.println(value);
+            }
+        }
 
 
         // Теория ----------------------------------------------------------------------------------------

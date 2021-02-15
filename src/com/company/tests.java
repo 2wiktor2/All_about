@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class tests {
 
 
@@ -14,6 +12,11 @@ public class tests {
         String str = "abcd";
         sS(str);
         System.out.println(sS(str));
+
+        String s = "АДПУ 1";
+        String s2 = s.substring(5);
+        System.out.println(s);
+        System.out.println(s2);
     }
 
 
