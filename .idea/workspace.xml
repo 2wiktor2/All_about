@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16158610-13a7-45eb-b9dd-4414df2c2c43" name="Default Changelist" comment="all about map added 3">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All_about_IntelliJ_IDEA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/AllAboutENUM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ForClassAllAboutENUM/MyFirstENUM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="16158610-13a7-45eb-b9dd-4414df2c2c43" name="Default Changelist" comment="all about map added 4 Урок 92 на udemy">
+      <change afterPath="$PROJECT_DIR$/src/com/company/multyTreading/threadAndRunnable/MultiTreadingThreadAndRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/multyTreading/threadAndRunnable/RunnableTimer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AllAboutMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AllAboutMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,7 +44,6 @@
   <component name="ProjectId" id="1RZamWKXXsDV3PGGloiZaX56R0X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -58,13 +52,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="getChars&#9;PSI&#9;JAVA://com.sun.corba.se.impl.encoding.CodeSetConversion.BTCConverter#getChars" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556532116608" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../001_Apps_Udemy_new_start" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
-  <component name="RunManager" selected="Application.AllAboutMap">
+  <component name="RunManager" selected="Application.MultiTreadingThreadAndRunnable">
     <configuration name="AllAboutMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.AllAboutMap" />
       <module name="All_About_Strings" />
@@ -104,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.DZHuman.Main" />
+    <configuration name="MultiTreadingThreadAndRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.multyTreading.threadAndRunnable.MultiTreadingThreadAndRunnable" />
       <module name="All_About_Strings" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.DZHuman.*" />
+          <option name="PATTERN" value="com.company.multyTreading.threadAndRunnable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,16 +128,16 @@
       <item itemvalue="Application.AllAboutMap" />
       <item itemvalue="Application.AllAboutSet_HashSet" />
       <item itemvalue="Application.AllAboutString" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.tests" />
+      <item itemvalue="Application.MultiTreadingThreadAndRunnable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiTreadingThreadAndRunnable" />
         <item itemvalue="Application.AllAboutMap" />
         <item itemvalue="Application.tests" />
         <item itemvalue="Application.AllAboutSet_HashSet" />
         <item itemvalue="Application.AllAboutString" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593673639727</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="all about map added 4 Урок 92 на udemy">
+      <created>1613411977905</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1613411977905</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -412,32 +413,45 @@
     <MESSAGE value="all about map added" />
     <MESSAGE value="all about map added 2" />
     <MESSAGE value="all about map added 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="all about map added 3" />
+    <MESSAGE value="all about map added 4 Урок 92 на udemy" />
+    <option name="LAST_COMMIT_MESSAGE" value="all about map added 4 Урок 92 на udemy" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="3029" height="495" key="GridCell.Tab.0.bottom" timestamp="1613411451971">
+    <state x="-2498" y="-525" key="#com.intellij.ide.util.MemberChooser" timestamp="1621977872018">
       <screen x="-3840" y="-1076" width="3072" height="1688" />
     </state>
-    <state width="3029" height="495" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.-1076.3072.1688@-3840.-1076.3072.1688" timestamp="1613411451971" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.-1076.3072.1688@0.0.1920.1040" timestamp="1606417857943" />
-    <state width="3029" height="495" key="GridCell.Tab.0.center" timestamp="1613411451971">
+    <state x="-2498" y="-525" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-3840.-1076.3072.1688@-3840.-1076.3072.1688" timestamp="1621977872018" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1619172943925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1619172943925" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1621974859343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-3840.-1076.3072.1688@0.0.1920.1040" timestamp="1621974859343" />
+    <state width="3029" height="495" key="GridCell.Tab.0.bottom" timestamp="1621979990419">
       <screen x="-3840" y="-1076" width="3072" height="1688" />
     </state>
-    <state width="3029" height="495" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.-1076.3072.1688@-3840.-1076.3072.1688" timestamp="1613411451971" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.-1076.3072.1688@0.0.1920.1040" timestamp="1606417857943" />
-    <state width="3029" height="495" key="GridCell.Tab.0.left" timestamp="1613411451971">
+    <state width="3029" height="495" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.-1076.3072.1688@-3840.-1076.3072.1688" timestamp="1621979990419" />
+    <state width="3029" height="495" key="GridCell.Tab.0.center" timestamp="1621979990419">
       <screen x="-3840" y="-1076" width="3072" height="1688" />
     </state>
-    <state width="3029" height="495" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.-1076.3072.1688@-3840.-1076.3072.1688" timestamp="1613411451971" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.-1076.3072.1688@0.0.1920.1040" timestamp="1606417857942" />
-    <state width="3029" height="495" key="GridCell.Tab.0.right" timestamp="1613411451971">
+    <state width="3029" height="495" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.-1076.3072.1688@-3840.-1076.3072.1688" timestamp="1621979990419" />
+    <state width="3029" height="495" key="GridCell.Tab.0.left" timestamp="1621979990419">
       <screen x="-3840" y="-1076" width="3072" height="1688" />
     </state>
-    <state width="3029" height="495" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-1076.3072.1688@-3840.-1076.3072.1688" timestamp="1613411451971" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-1076.3072.1688@0.0.1920.1040" timestamp="1606417857943" />
+    <state width="3029" height="495" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.-1076.3072.1688@-3840.-1076.3072.1688" timestamp="1621979990419" />
+    <state width="3029" height="495" key="GridCell.Tab.0.right" timestamp="1621979990419">
+      <screen x="-3840" y="-1076" width="3072" height="1688" />
+    </state>
+    <state width="3029" height="495" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-1076.3072.1688@-3840.-1076.3072.1688" timestamp="1621979990419" />
+    <state x="-2711" y="-499" key="Vcs.Push.Dialog.v2" timestamp="1613411984100">
+      <screen x="-3840" y="-1076" width="3072" height="1688" />
+    </state>
+    <state x="-2711" y="-499" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1076.3072.1688@-3840.-1076.3072.1688" timestamp="1613411984100" />
     <state x="-2641" y="-689" width="672" height="678" key="search.everywhere.popup" timestamp="1613411537101">
       <screen x="-3840" y="-1076" width="3072" height="1688" />
     </state>
